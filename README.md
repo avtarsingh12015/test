@@ -224,11 +224,12 @@ Parameters:
   subnet: default
 
   vpc_security_groups: sg-0xxxxxxxxxxxxxxxxxxxxx
+```
 
 
+### 19) Confirm that pod shows as running while instance is being provisioned. command:
 
-19) Confirm that pod shows as running while instance is being provisioned. command:
-
+```
 kubectl get po —all-namespaces |grep -ie running
 
 Note: a new pod would be there with syntax like ‘dh-rds-postgres-apb-prov-xxxxx’
